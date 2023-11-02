@@ -38,6 +38,32 @@ Commands Used for master Node
    17  ansible -m shell -a 'ssh-keyscan 172.31.40.139 >> ~/.ssh/known_hosts' localhost
    
    18  ansible -m ping all
+
+   sudo nano play.yaml
+   22  sudo nano master.sh
+   23  sudo nano slave.sh
+   24  sudo nano master.sh
+   25  ls
+   26  sudo ansible-playbook play.yaml --syntax-check
+   27  sudo nano play.yaml
+   28  sudo ansible-playbook play.yaml --syntax-check
+   29  sudo nano play.yaml
+   30  sudo ansible-playbook play.yaml --syntax-check
+   31  sudo nano play.yaml
+   32  sudo ansible-playbook play.yaml --syntax-check
+   33  sudo nano play.yaml
+   34  sudo ansible-playbook play.yaml --syntax-check
+   35  sudo ansible-playbook play.yaml --check
+   36  ansible-playbook play.yaml --check
+   37  ansible-playbook play.yaml
+   38  sudo apt update
+   39  sudo apt install openjdk-11-jdk
+   40  sudo dpkg --configure -a
+   41  systemctl status jenkins.service
+   42  cat /var/lib/jenkins/secrets/initialAdminPassword
+   43  jenkins --version
+   44  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   45  ansible-playbook play.yaml
    
 Commands used for slave node
 
